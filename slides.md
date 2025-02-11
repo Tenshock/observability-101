@@ -536,9 +536,12 @@ layout: two-cols
 
 How to detect efficiently
 
-<v-clicks pr-5 every="1" mb-3>
+<v-click>
 
-### <span v-mark="{ at: 8, color: '#60a7fa', type: 'highlight', iterations: 1, animationDuration: 450 }">Metrics</span>
+### <span v-mark="{ at: 10, color: '#60a7fa', type: 'highlight', iterations: 1, animationDuration: 450 }">Metrics</span>
+</v-click>
+
+<v-clicks pr-5 every="1" mb-3>
 
 - metrics are (*somehow*) frugal to compute
 - they are very expressive to monitor a system as a whole
@@ -569,15 +572,15 @@ How to dive down into the rabbit hole
 
 <div mt-10 v-click>
 
-### <span v-mark="{ at: 8, color: '#60a7fa', type: 'highlight', iterations: 1, animationDuration: 450 }">Traces</span>
+### <span v-mark="{ at: 10, color: '#60a7fa', type: 'highlight', iterations: 1, animationDuration: 450 }">Traces</span>
 
-They enable the big picture, which link in the chain is weak, <span v-mark.green="6">**where to look at**</span>
+They enable the big picture, which link in the chain is weak, <span v-mark.green="8">**where to look at**</span>
 </div>
 <div mt-10 v-click>
 
-### <span v-mark="{ at: 8, color: '#60a7fa', type: 'highlight', iterations: 1, animationDuration: 450 }">Logs</span>
+### <span v-mark="{ at: 10, color: '#60a7fa', type: 'highlight', iterations: 1, animationDuration: 450 }">Logs</span>
 
-Deeper look into what is going on, <span v-mark.green="7">**to dive in**</span>
+Deeper look into what is going on, <span v-mark.green="9">**to dive in**</span>
 </div>
 
 <SlideCurrentNo position="absolute" bottom="0" right="2"/>
