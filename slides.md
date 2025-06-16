@@ -250,9 +250,9 @@ Captures distribution of values
 </div>
 <arrow v-click="6" x1="310" y1="430" x2="485" y2="410" color="#953" width="2" arrowSize="1" />
 
-<img v-click="7" src="./gauge.png" absolute ml-1 top-10 w-100/>
-<img v-click="8" src="./counter.png" absolute top-52 w-100/>
-<img v-click="9" src="./histogram.png" absolute ml-10 top-92 w-65/>
+<img v-click="7" src="./public/gauge.png" absolute ml-1 top-10 w-100/>
+<img v-click="8" src="./public/counter.png" absolute top-52 w-100/>
+<img v-click="9" src="./public/histogram.png" absolute ml-10 top-92 w-65/>
 
 <SlideCurrentNo position="absolute" bottom="0" right="2"/>
 ---
