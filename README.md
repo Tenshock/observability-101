@@ -1,11 +1,19 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Observability 101
 
-To start the slide show:
+This presentation covers main theoretical subjects about observability and more precisely about telemetry.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+The presentation length is about 45 minutes.
 
-Edit the [slides.md](./slides.md) to see the changes.
+## Getting Started
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+To run the project in local, run the following command:
+
+```
+npm run dev
+```
+
+The slides are available at [http://localhost:3000](http://localhost:3030).
+
+## Contributing
+
+This project uses [Slidev](https://sli.dev/) as presentation framework. Feel free to read the doc to contribute to this support.
